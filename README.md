@@ -21,6 +21,7 @@ Inside it runs the ordinary, unmodified WBPP — AutoStack only drives it and ch
 
 - **Matches calibration**: darks (and flats, bias) on gain, offset, temperature and exposure — not just exposure, as WBPP does. Catches darks from another camera or with another gain and explains why they don't fit.
 - **Finds registration settings by itself** for each filter — from default to the most sensitive, including very star-poor fields (e.g. a galaxy in Hα) — and **verifies alignment accuracy with stars**.
+- **Picks up where it left off**: if stacking was interrupted (Stop, an error, the PC switched off), press “Stack” again with the same folders — finished steps such as calibration and registration are not redone.
 - **Chooses the reference frame by itself**: the one the most frames of all filters register to.
 - **Frame selection**: a slider from “best only” to “all frames”, plus **Auto**, which picks for each filter the selection that gives the most detailed master.
 - Mono and colour (OSC) cameras. All masters are aligned to each other — ready for LRGB/SHO.
@@ -56,6 +57,7 @@ PixInsight and WBPP are products of Pleiades Astrophoto S.L.; they are not inclu
 
 - подбирает дарки/флэты по gain, offset, температуре и выдержке (ловит дарки от другой камеры)
 - сам находит настройки регистрации для каждого фильтра, вплоть до полей с очень малым числом звёзд, и проверяет точность по звёздам
+- **продолжает с места остановки**: если сложение прервалось (Стоп, ошибка, выключился ПК), снова нажмите «Сложить» с теми же папками — уже сделанные этапы (калибровка, регистрация) не повторяются
 - сам выбирает опорный кадр, с которым совмещается больше всего кадров
 - **«Отбор кадров»**: шкала от «только лучшие» до «все кадры» и режим **«Авто»**, выбирающий самый детальный мастер для каждого фильтра
 - моно и цветные (OSC) камеры; все мастера выровнены друг на друга
