@@ -1,0 +1,18 @@
+AutoStack
+Copyright (c) 2026 BananAndrews. All rights reserved.
+
+Permission is granted to download, install and use AutoStack, and to pass on unmodified copies
+of the official release packages free of charge, provided this notice is kept with them.
+
+Without prior written permission of the copyright holder you may NOT:
+  - modify, adapt, translate or create derivative works of AutoStack or its source code;
+  - decompile, disassemble or otherwise reverse engineer the released program;
+  - distribute modified versions, or sell AutoStack or any part of it.
+
+AutoStack controls PixInsight and its WeightedBatchPreprocessing (WBPP) script, which are
+products of Pleiades Astrophoto S.L. and are not part of AutoStack; they are used unmodified
+under their own licenses. PixInsight is a trademark of Pleiades Astrophoto S.L.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT
+SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+USE OF THE SOFTWARE, INCLUDING LOSS OF OR DAMAGE TO IMAGE DATA.
