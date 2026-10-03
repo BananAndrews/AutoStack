@@ -26,6 +26,7 @@ Inside it runs the ordinary, unmodified WBPP — AutoStack only drives it and ch
 - Mono and colour (OSC) cameras. All masters are aligned to each other — ready for LRGB/SHO.
 - **Detailed report** (HTML with previews): what went in, what didn't, why, and what to do.
 - **English and Russian** interface.
+- **Update notifications**: tells you when a new version is out, updates itself in one click and shows what changed.
 - Optional **review of the result by Claude** (if Claude Code is installed; read-only).
 
 ## Requirements
@@ -58,6 +59,7 @@ PixInsight and WBPP are products of Pleiades Astrophoto S.L.; they are not inclu
 - сам выбирает опорный кадр, с которым совмещается больше всего кадров
 - **«Отбор кадров»**: шкала от «только лучшие» до «все кадры» и режим **«Авто»**, выбирающий самый детальный мастер для каждого фильтра
 - моно и цветные (OSC) камеры; все мастера выровнены друг на друга
+- уведомления о новых версиях, обновление в один клик и список изменений после обновления
 - подробный HTML-отчёт; интерфейс на английском и русском (переключатель «Language» в окне); по желанию — проверка Claude Code (только чтение)
 
 Нужны Windows и PixInsight 1.9 с WBPP 3.x. Программа бесплатная; **[♥ поддержать автора через PayPal](https://www.paypal.com/donate/?business=shanvit1201%40gmail.com&no_recurring=0&item_name=AutoStack)**. Исходный код закрыт, см. [LICENSE](LICENSE). PixInsight и WBPP — продукты Pleiades Astrophoto S.L.
