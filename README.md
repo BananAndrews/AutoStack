@@ -48,7 +48,7 @@ PixInsight and WBPP are products of Pleiades Astrophoto S.L.; they are not inclu
 ---
 
 <a name="russian"></a>
-# AutoStack — по-русски
+# AutoStack
 
 **Калибровка и сложение астрофотографий в одну кнопку — поверх PixInsight WBPP.**
 
