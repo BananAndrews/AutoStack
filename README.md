@@ -1,7 +1,6 @@
 # AutoStack
 
 **One-button calibration and stacking of astrophotos — on top of PixInsight WBPP.**
-*Калибровка и сложение астрофотографий в одну кнопку — поверх PixInsight WBPP.* — [Русская версия ниже](#russian)
 
 ![AutoStack](screenshot.png)
 
