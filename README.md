@@ -2,7 +2,7 @@
 
 **One-button calibration and stacking of astrophotos — on top of PixInsight WBPP.**
 
-![AutoStack](screenshot.png)
+![AutoStack](screenshot-0.5.6.png)
 
 ## Download
 
