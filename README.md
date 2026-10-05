@@ -2,7 +2,7 @@
 
 **One-button calibration and stacking of astrophotos — on top of PixInsight WBPP.**
 
-![AutoStack](screenshot-0.5.6.png)
+![AutoStack](screenshot-0.6.0.png)
 
 ## Download
 
@@ -18,7 +18,9 @@ Inside it runs the ordinary, unmodified WBPP — AutoStack only drives it and ch
 
 ## Features
 
-- **Matches calibration**: darks (and flats, bias) on gain, offset, temperature and exposure — not just exposure, as WBPP does. Catches darks from another camera or with another gain and explains why they don't fit.
+- **Matches calibration**: darks (and flats, bias) on camera, gain/ISO, offset, temperature and exposure — not just exposure, as WBPP does. Catches darks from another camera or with another gain and explains why they don't fit.
+- **Point it at your whole calibration library — no sorting needed**: the frame type comes from the file, from the file or folder name (dark, flat, bias, offset…) or from the image itself. A dark spoiled by a light leak is noticed and left out.
+- **Camera RAW files** of DSLR and mirrorless cameras (CR2, CR3, NEF, ARW, RAF, ORF, RW2, DNG…): exposure, ISO, camera and sensor temperature are read from the EXIF, darks are matched to the nearest temperature.
 - **Finds registration settings by itself** for each filter — from default to the most sensitive, including very star-poor fields (e.g. a galaxy in Hα) — and **verifies alignment accuracy with stars**.
 - **Picks up where it left off**: if stacking was interrupted (Stop, an error, the PC switched off), press “Stack” again with the same folders — finished steps such as calibration and registration are not redone.
 - **Chooses the reference frame by itself**: the one the most frames of all filters register to.
@@ -27,7 +29,7 @@ Inside it runs the ordinary, unmodified WBPP — AutoStack only drives it and ch
 - **Detailed report** (HTML with previews): what went in, what didn't, why, and what to do.
 - **English and Russian** interface.
 - **Update notifications**: tells you when a new version is out, updates itself in one click and shows what changed.
-- Optional **review of the result by Claude** (if Claude Code is installed; read-only).
+- Optional **review of the result by Claude** (if Claude Code is installed; read-only; off unless you turn it on).
 
 ## Requirements
 
@@ -66,7 +68,9 @@ WBPP в PixInsight часто выбрасывает часть лайтов: м
 
 ## Что умеет
 
-- **Подбирает калибровку**: дарки (а также флэты и биасы) по gain, offset, температуре и выдержке — а не только по выдержке, как WBPP. Замечает дарки от другой камеры или с другим gain и объясняет, почему они не подходят.
+- **Подбирает калибровку**: дарки (а также флэты и биасы) по камере, gain/ISO, offset, температуре и выдержке — а не только по выдержке, как WBPP. Замечает дарки от другой камеры или с другим gain и объясняет, почему они не подходят.
+- **Достаточно указать всю библиотеку калибровки — раскладывать по папкам не нужно**: тип кадра берётся из файла, из имени файла или папки (dark, flat, bias, offset, дарк, флэт, оффсет…) или определяется по изображению. Дарк с засветкой замечается и не используется.
+- **RAW зеркальных и беззеркальных камер** (CR2, CR3, NEF, ARW, RAF, ORF, RW2, DNG…): выдержка, ISO, камера и температура сенсора берутся из EXIF, дарки подбираются по ближайшей температуре.
 - **Сам находит настройки регистрации** для каждого фильтра — от стандартных до самых чувствительных, включая поля с очень малым числом звёзд (например, галактика в Hα), — и **проверяет точность совмещения по звёздам**.
 - **Продолжает с места остановки**: если сложение прервалось (Стоп, ошибка, выключился ПК), снова нажмите «Сложить» с теми же папками — уже сделанные этапы (калибровка, регистрация) не повторяются.
 - **Сам выбирает опорный кадр**: тот, с которым совмещается больше всего кадров всех фильтров.
@@ -75,7 +79,7 @@ WBPP в PixInsight часто выбрасывает часть лайтов: м
 - **Подробный отчёт** (HTML с превью): что вошло, что нет, почему и что делать.
 - Интерфейс на **английском и русском** (переключатель «Language» в окне).
 - **Уведомления об обновлениях**: сообщает о новой версии, обновляется в один клик и показывает, что изменилось.
-- По желанию — **проверка результата Claude** (если установлен Claude Code; только чтение).
+- По желанию — **проверка результата Claude** (если установлен Claude Code; только чтение; выключена, пока вы сами её не включите).
 
 ## Что нужно
 
