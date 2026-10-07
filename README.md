@@ -39,7 +39,7 @@ Inside it runs the ordinary, unmodified WBPP — AutoStack only drives it and ch
 
 ## Support the author
 
-AutoStack is free. If it helped you — **[♥ support the author via PayPal](https://www.paypal.com/donate/?business=shanvit1201%40gmail.com&no_recurring=0&item_name=AutoStack)** (the same button is in the program window).
+AutoStack is free. If it helped you — **[♥ support the author via PayPal](https://www.paypal.com/donate/?business=contact%40bluebelleweddings.com&no_recurring=0&item_name=AutoStack)** (the same button is in the program window).
 
 ## License
 
@@ -89,7 +89,7 @@ WBPP в PixInsight часто выбрасывает часть лайтов: м
 
 ## Поддержать автора
 
-Программа бесплатная. Если она вам помогла — **[♥ поддержать автора через PayPal](https://www.paypal.com/donate/?business=shanvit1201%40gmail.com&no_recurring=0&item_name=AutoStack)** (такая же кнопка есть в окне программы).
+Программа бесплатная. Если она вам помогла — **[♥ поддержать автора через PayPal](https://www.paypal.com/donate/?business=contact%40bluebelleweddings.com&no_recurring=0&item_name=AutoStack)** (такая же кнопка есть в окне программы).
 
 ## Лицензия
 
