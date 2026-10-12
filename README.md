@@ -2,7 +2,7 @@
 
 **One-button calibration and stacking of astrophotos — on top of PixInsight WBPP.**
 
-![AutoStack](screenshot-0.6.0.png)
+![AutoStack](screenshot-0.7.0.png)
 
 ## Download
 
@@ -20,6 +20,7 @@ Inside it runs the ordinary, unmodified WBPP — AutoStack only drives it and ch
 
 - **Matches calibration**: darks (and flats, bias) on camera, gain/ISO, offset, temperature and exposure — not just exposure, as WBPP does. Catches darks from another camera or with another gain and explains why they don't fit.
 - **Point it at your whole calibration library — no sorting needed**: the frame type comes from the file, from the file or folder name (dark, flat, bias, offset…) or from the image itself. A dark spoiled by a light leak is noticed and left out.
+- **No darks? Stacks anyway, if you say so**: when there is no calibration at all, or some lights have no matching darks, it says which darks are needed and asks whether to stack without them — using whatever there is (bias, flats). The report then says clearly that the frames were not calibrated.
 - **Camera RAW files** of DSLR and mirrorless cameras (CR2, CR3, NEF, ARW, RAF, ORF, RW2, DNG…): exposure, ISO, camera and sensor temperature are read from the EXIF, darks are matched to the nearest temperature.
 - **Finds registration settings by itself** for each filter — from default to the most sensitive, including very star-poor fields (e.g. a galaxy in Hα) — and **verifies alignment accuracy with stars**.
 - **Picks up where it left off**: if stacking was interrupted (Stop, an error, the PC switched off), press “Stack” again with the same folders — finished steps such as calibration and registration are not redone.
@@ -39,7 +40,7 @@ Inside it runs the ordinary, unmodified WBPP — AutoStack only drives it and ch
 
 ## Support the author
 
-AutoStack is free. If it helped you — **[♥ support the author via PayPal](https://www.paypal.com/donate/?business=contact%40bluebelleweddings.com&no_recurring=0&item_name=AutoStack)** (the same button is in the program window).
+AutoStack is free. If it helped you — **[♥ support the author via PayPal](https://www.paypal.com/donate/?business=contact%40bluebelleweddings.com&no_recurring=0&item_name=AutoStack)** (the same ♥ is in the program window, where you can also pay by card).
 
 ## License
 
@@ -70,6 +71,7 @@ WBPP в PixInsight часто выбрасывает часть лайтов: м
 
 - **Подбирает калибровку**: дарки (а также флэты и биасы) по камере, gain/ISO, offset, температуре и выдержке — а не только по выдержке, как WBPP. Замечает дарки от другой камеры или с другим gain и объясняет, почему они не подходят.
 - **Достаточно указать всю библиотеку калибровки — раскладывать по папкам не нужно**: тип кадра берётся из файла, из имени файла или папки (dark, flat, bias, offset, дарк, флэт, оффсет…) или определяется по изображению. Дарк с засветкой замечается и не используется.
+- **Нет дарков — сложит и так, если вы согласитесь**: если калибровки нет совсем или для части лайтов нет подходящих дарков, программа скажет, какие дарки нужны, и спросит, складывать ли без них — с тем, что есть (биасы, флэты). В отчёте будет ясно указано, что кадры не калибровались.
 - **RAW зеркальных и беззеркальных камер** (CR2, CR3, NEF, ARW, RAF, ORF, RW2, DNG…): выдержка, ISO, камера и температура сенсора берутся из EXIF, дарки подбираются по ближайшей температуре.
 - **Сам находит настройки регистрации** для каждого фильтра — от стандартных до самых чувствительных, включая поля с очень малым числом звёзд (например, галактика в Hα), — и **проверяет точность совмещения по звёздам**.
 - **Продолжает с места остановки**: если сложение прервалось (Стоп, ошибка, выключился ПК), снова нажмите «Сложить» с теми же папками — уже сделанные этапы (калибровка, регистрация) не повторяются.
@@ -89,7 +91,7 @@ WBPP в PixInsight часто выбрасывает часть лайтов: м
 
 ## Поддержать автора
 
-Программа бесплатная. Если она вам помогла — **[♥ поддержать автора через PayPal](https://www.paypal.com/donate/?business=contact%40bluebelleweddings.com&no_recurring=0&item_name=AutoStack)** (такая же кнопка есть в окне программы).
+Программа бесплатная. Если она вам помогла — **[♥ поддержать автора через PayPal](https://www.paypal.com/donate/?business=contact%40bluebelleweddings.com&no_recurring=0&item_name=AutoStack)** (такое же ♥ есть в окне программы — там можно поддержать и картой).
 
 ## Лицензия
 
